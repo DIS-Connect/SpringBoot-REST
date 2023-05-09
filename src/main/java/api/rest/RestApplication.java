@@ -9,6 +9,7 @@ public class RestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestApplication.class, args);
+		System.out.println("Hello World will be shown if you got to localhost:8080");
 	}
 
 
