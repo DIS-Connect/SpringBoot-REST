@@ -12,6 +12,4 @@ public class RestApplication {
 		System.out.println("Hello World will be shown if you got to localhost:8080");
 	}
 
-
-
 }

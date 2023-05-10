@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.rest.RestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-10T07:43:13" hostname="Pauls-MacBook-Air-2.local" time="0.156">
+  <properties/>
+  <testcase name="contextLoads()" classname="api.rest.RestApplicationTests" time="0.156"/>
+  <system-out><![CDATA[09:43:12.600 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [RestApplicationTests]: using SpringBootContextLoader
+09:43:12.606 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [api.rest.RestApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:43:12.606 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [api.rest.RestApplicationTests]: RestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:43:12.615 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [RestApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+09:43:12.645 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/henryhenryson/Documents/TUM/semester6/EiSt/artemis/SpringBoot-REST/build/classes/java/main/api/rest/RestApplication.class]
+09:43:12.645 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration api.rest.RestApplication for test class api.rest.RestApplicationTests
+09:43:12.677 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+09:43:12.677 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+09:43:12.678 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [RestApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+09:43:12.679 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [RestApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.6)
+
+2023-05-10T09:43:12.796+02:00  INFO 15021 --- [    Test worker] api.rest.RestApplicationTests            : Starting RestApplicationTests using Java 17.0.7 with PID 15021 (started by henryhenryson in /Users/henryhenryson/Documents/TUM/semester6/EiSt/artemis/SpringBoot-REST)
+2023-05-10T09:43:12.796+02:00  INFO 15021 --- [    Test worker] api.rest.RestApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2023-05-10T09:43:13.194+02:00  INFO 15021 --- [    Test worker] api.rest.RestApplicationTests            : Started RestApplicationTests in 0.498 seconds (process running for 0.923)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
